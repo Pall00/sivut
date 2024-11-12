@@ -21,4 +21,4 @@ jobs:
 
       - name: Deploy to Raspberry Pi
         run: |
-          rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no" ./ deployuser@your_noip_hostname:/var/www/html/
+          rsync -avz --delete -e "ssh -o StrictHostKeyChecking=no" ./ deployuser@jughservu.servehttp.com:/var/www/html/
